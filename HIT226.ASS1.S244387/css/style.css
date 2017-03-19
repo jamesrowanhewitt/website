@@ -6,7 +6,49 @@ https://coolors.co/011627-fdfffc-f6bf52-2ec4b6-e71d36
 also used #FFFFFF
 */
 
+/* palette table styling */
 
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
+
+.sample {
+  padding: 50px
+}
+
+.table_main {
+  padding-right: 30px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+
+/* Navigations */
+
+.nav_home{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #011627;
+}
+.nav_home a{
+  display: block;
+  color: #fdfffc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_home a:hover{
+  color:black;
+  background-color: #54cec3;
+}
 
 body{
   margin:0;
@@ -16,8 +58,9 @@ body{
 }
 
 ul{
-  padding:0;
-  margin:0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /* Global container */
@@ -43,6 +86,7 @@ ul{
   margin-top:10px;
   margin-bottom:10px;
 }
+
 
 /* Header **/
 header{
@@ -95,6 +139,9 @@ header a:hover{
   background: #F6C461;
   text-align:center;
   color:#011627;
+  border-bottom:solid;
+  border-width: 10px;
+  border-color:#011627;
 }
 
 #showcase h1{
@@ -109,6 +156,7 @@ header a:hover{
 
 /* Contact us */
 #contact{
+  margin-top: 20px;
   padding:15px;
   background:#011627;
   color:#FFFFFF;
@@ -136,8 +184,6 @@ header a:hover{
 }
 
 #boxes .box{
-  float:left;
-  text-align: center;
   padding:10px;
 }
 
@@ -145,10 +191,10 @@ header a:hover{
   width:90px;
 }
 
+
 /* Footer */
 footer{
   padding:20px;
-  margin-top:20px;
   color:#FFFFFF;
   background-color:#E71D36;
   text-align: center;
