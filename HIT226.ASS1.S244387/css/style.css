@@ -1,0 +1,234 @@
+/*
+Please follow this colour scheme, strict consistency required.
+LINK TO COLOUR SCHEME
+https://coolors.co/011627-fdfffc-f6bf52-2ec4b6-e71d36
+
+also used #FFFFFF
+*/
+
+/* palette table styling */
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
+
+.sample {
+  padding: 50px
+}
+
+.table_main {
+  padding-right: 30px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+
+/* Navigations */
+
+.nav_home{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #011627;
+}
+.nav_home a{
+  display: block;
+  color: #fdfffc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_home a:hover{
+  color:black;
+  background-color: #54cec3;
+}
+
+body{
+  margin:0;
+  background-color:#FDFFFC;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Global container */
+.container{
+  margin:auto;
+  overflow:hidden;
+  width:75%;
+}
+
+.button_1{
+  height:38px;
+  background:#010F19;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#FFFFFF;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#FFFFFF;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+/* Header **/
+header{
+  background:#011627;
+  color:#FFFFFF;
+  padding-top:30px;
+  min-height:70px;
+}
+
+header a{
+  color:#FFFFFF;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#F6BF52;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#F9D690;
+  font-weight:bold;
+}
+
+
+/* Showcase */
+#showcase{
+  min-height:300px;
+  background: #F6C461;
+  text-align:center;
+  color:#011627;
+  border-bottom:solid;
+  border-width: 10px;
+  border-color:#011627;
+}
+
+#showcase h1{
+  margin-top:70px;
+  font-size:50px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Contact us */
+#contact{
+  margin-top: 20px;
+  padding:15px;
+  background:#011627;
+  color:#FFFFFF;
+}
+
+#contact h1{
+  float:left;
+  padding-right: 20px;
+}
+
+#contact form {
+  float:left;
+  margin-top:15px;
+}
+
+#contact input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+
+/* Footer */
+footer{
+  padding:20px;
+  color:#FFFFFF;
+  background-color:#E71D36;
+  text-align: center;
+}
+
+footer a{
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+/* Media Queries - Responsive design */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #contact h1,
+  #contact form,
+  #boxes .box,
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #contact button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #contact form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
