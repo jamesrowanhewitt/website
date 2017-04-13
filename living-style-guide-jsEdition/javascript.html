@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A resource for information about style guides">
+	  <meta name="keywords" content="style guides, free resources for style guides, creating style guides">
+  	<meta name="author" content="James Hewitt">
+    <title>Style Guides | Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type='text/javascript' src='./js/userInput.js'></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Style</span> Guides</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="palette.html">Colour Palette</a></li>
+            <li><a href="typeface.html">Typography</a></li>
+            <li><a href="card.html">Card Design</a></li>
+            <li class="current"><a href="javascript.html">Javascript</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      
+   <section id="showcase">
+      <div class="container">
+        <h1>Javascript</h1>
+        <p>Event listeners and form validation</p>
+      </div>
+    </section>
+      
+    <section id="boxes">
+          <div class="box">
+            <h2>Our registration page is an example</h2>
+            <h3>Form validation</h3>
+            <form method="get" name="signupForm" onsubmit="return validate()" action="submission.html">
+                <fieldset>
+                    <h3>Register here</h3>
+                    <div>Username: <input type="text" placeholder="Enter Username"name="uname" id="uname" class="formInput"/></div>
+                    <div>Password: <input type="password" name="pword" placeholder="Enter Password"id="pword" class="formInput"/></div>
+                    <div>Confirm Password: <input type="password" name="pword2" placeholder="Confirm Password" id="pword2" class="formInput"/></div>
+                    <div>Telephone: <input type="tel" name="phone" placeholder="Enter Phone Number" id="phone" class="formInput"/></div>
+                    <div>Email: <input type="text" name="email" placeholder="Enter Email Address" id="email" class="formInput"/></div>
+                    <select name="country">  
+                        <option selected="" value="Default">(Please select a country)</option>  
+                        <option value="AU">Australia</option>  
+                        <option value="CH">China</option>  
+                        <option value="IN">India</option>  
+                        <option value="RU">Russia</option>  
+                        <option value="US">USA</option>  
+                    </select>
+                    <div>
+                         Male: <input type="checkbox" id="maleBox"/> 
+                         Female: <input type="checkbox" id="femaleBox"/></div>
+                    <div><input type="submit" value="Submit" name="submitBtn"/></div>
+                </fieldset>
+            </form>  
+          </div>
+          <div class="box">
+            <h2>Javascript form validation</h2>
+             <p>Form validation is extremely important in webdesign, bad form validation is a security threat to the website -as users can access a submission page without following the criteria first.</p>
+             <p>The criteria for a valid entry can be different as there are various factors that could come into play: for an example a bank would have strong passsword validation to ensure users have secure passwords with enough length.</p>
+             <p>Anonymous-based websites like reddit would have less strict validations rules, any email address can be typed, usernames and password would have no minimum characters or a need for numericals and symbols. Circumstances are different.</p>
+             <p>This style guide will validate for matching passwords, blank fields and if the symbols "@" and "." are used in the email field. If the form doesn't meet these requirements return false.</p>
+          </div>
+          <div class="box">
+              <h2>Event listening</h2>
+              <p>Event listening is how javascript determines interaction. Once interaction is made the event listener tells javascript to run a specific function.</p>
+              <ol>
+                <li>onload //when the page loads</li>
+                <li>onclick //when a user clicks something</li>
+                <li>onmouseover //when a user mouses over something</li>
+                <li>onfocus //when a user puts the cursor in a form field</li>
+                <li>onblur //When a user leaves a form field</li>
+              </ol>
+          </div>
+          <div class="box">
+            <h1>Side project</h1>
+            <h2>A game, because websites can be boring sometimes! <a href="https://jamesrowanhewitt.github.io/website/PongGame.html" alt="Oops link broken">CLICK ME FOR THE GAME - PONG IN JS</a></h2>
+            <h3>Created with help from a udemy tutorial - found here: <a href="https://www.udemy.com/code-your-first-game" alt="Link broken">https://www.udemy.com/code-your-first-game</a> </h3>
+        </div>  
+    </section>
+
+
+      <footer>
+        <p><small>Disclaimer for Living Style Guides
+
+If you require any more information or have any questions about our siteâ€™s disclaimer, please feel free to contact us by email at jamesrowanhewitt@gmail.com.
+Disclaimers for jamesrowanhewitt.github.io
+
+All the information on this website is published in good faith and for general information purpose only. jamesrowanhewitt.github.io does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (jamesrowanhewitt.github.io), is strictly at your own risk. jamesrowanhewitt.github.io will not be liable for any losses and/or damages in connection with the use of our website.
+
+From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone â€˜badâ€™.
+
+Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their Terms of Service before engaging in any business or uploading any information.
+
+Consent
+By using our website, you hereby consent to our disclaimer and agree to its terms.
+A useful list of resources for style guides
+Update
+
+Should we update, amend or make any changes to this document, those changes will be prominently posted here.
+
+This Disclaimer was created at disclaimergenerator.net.</small></p>
+        <h5>All rights reserved - James Hewitt &copy; 2017</h5>
+        <h6>Sitemap: <a href="index.html"> Index</a><a href="tips_tricks.html"> Tips/Tricks</a><a href="references.html">References</a></h6>
+      </footer>
+    <!-- END OF FOOTER -->
+          <script type="text/javascript" src="./js/userInput.js"></script>
+      <!-- JAVASCRIPT RUNS AT END OF HTML SO AS TO LOAD HTML ELEMENTS/VARIABLES FIRST-->
+  </body>
+</html>

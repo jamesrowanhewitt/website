@@ -1,0 +1,325 @@
+/*
+Please follow this colour scheme, strict consistency required.
+LINK TO COLOUR SCHEME
+https://coolors.co/011627-fdfffc-f6bf52-2ec4b6-e71d36
+
+also used #FFFFFF
+*/
+
+/* Typography */
+
+
+
+/* ----ASSIGNMENT 2 CSS HERE------- */
+
+.formInput{
+  float: right;
+  height: 100%; 
+  width: 100%;
+}
+
+fieldset{
+
+    background-color: #f6c461;
+    border-width: thick;
+    border-color: #011627;
+    border-radius: 10px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 20px;
+    background-color: #f6c461;
+    margin-left: 25%;
+}
+
+
+
+/* ------------------END---------------------*/
+
+
+
+.form_example2 input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: #011627;
+}
+
+.form_example2 form{
+  width: 20%;
+  padding: 20px;
+  color: white;
+  background-color: #011627;
+}
+
+.nav_example2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #54cec3;
+  width: 25%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #011627;
+}
+.nav_example2 a{
+  display: block;
+  color: #black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-top: solid;
+  border-color: #011627;
+}
+.nav_example2 a:hover{
+  color: black;
+  background-color: #f6c461;
+}
+
+
+
+/* palette table styling */
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}
+
+.sample {
+  padding: 50px
+}
+
+
+
+/* Navigations */
+
+.nav_home{
+  padding:10%;
+  border-radius: 10px;
+  border: solid;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  background-color: #011627;
+}
+.nav_home a{
+  display: block;
+  color: #fdfffc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_home a:hover{
+  color:black;
+  background-color: #54cec3;
+}
+
+body{
+  margin:0;
+  background-color:#FDFFFC;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Global container */
+.container{
+  margin:auto;
+  overflow:hidden;
+  
+}
+
+.button_1{
+  height:38px;
+  background:#010F19;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#FFFFFF;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#FFFFFF;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+/* Header **/
+header{
+  background:#011627;
+  color:#FFFFFF;
+  padding-top:30px;
+  min-height:70px;
+}
+
+header a{
+  color:#FFFFFF;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  padding-bottom: 10px;
+}
+
+header #branding{
+  display: inline;
+}
+
+header #branding h1{
+  margin-left: 5% ;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#F6BF52;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#F9D690;
+  font-weight:bold;
+}
+
+
+/* Showcase */
+#showcase{
+  min-height:300px;
+  background: #F6C461;
+  text-align:center;
+  color:#011627;
+  border-bottom:solid;
+  border-width: 10px;
+  border-color:#011627;
+}
+
+#showcase h1{
+  margin-top:70px;
+  font-size:50px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Contact us */
+#contact{
+  margin-top: 20px;
+  padding:15px;
+  background:#011627;
+  color:#FFFFFF;
+}
+
+#contact h2{
+  float:left;
+  padding-right: 20px;
+}
+
+#contact form {
+  float:left;
+  margin-top:15px;
+}
+
+#contact input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+}
+
+#boxes .box{
+  margin: 10px;
+  float: left;
+  border-radius: 10px;
+  border: solid;
+  padding: 10px;
+  width: 40%;
+  overflow: hidden;
+  display:inline;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+
+/* Footer */
+footer{
+  float: left;
+  padding:20px;
+  color:#FFFFFF;
+  background-color:#E71D36;
+  text-align: center;
+}
+
+footer a{
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+/* Media Queries - Responsive design */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #contact h1,
+  #contact form,
+  #boxes .box,
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #contact button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #contact form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+  #boxes .box{
+    width:90%;
+    overflow: auto;
+    padding: 10px;
+  }
+
+
+}
