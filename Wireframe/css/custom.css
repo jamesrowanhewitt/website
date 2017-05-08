@@ -1,0 +1,184 @@
+                        body {
+                        min-width: 320px;
+                    }
+
+                    .container {
+                        margin-top: 50px;
+                        padding: 20px;
+                    }
+
+
+
+                    #logo_banner {
+                        height: 50px;
+                        width: 50px;
+                        margin: 0px;
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    #logo_main {
+                        height: 250px;
+                        width: 250px;
+                        border: 2px;
+                        border-style: solid;
+                    }
+
+                    .home_logo {
+                        text-align: center;
+                        margin-top: 75px;
+                    }
+
+                    .home_title {
+                        text-align: center;
+                        font-size: 1.5em;
+                        margin-top: 25px;
+                    }
+
+                    .about_title {
+                        text-align: center;
+                    }
+
+                    .about_content_top, .about_content_middle, .about_content_bottom {
+                        text-align: center;
+                        margin-top: 50px;
+                    }
+
+                    .about_content_bottom {
+                        text-align: center;
+                    }
+
+
+                    .about_content_top ul,
+                    .about_content_middle ul {
+                        list-style: none;
+                        padding: 0px;
+                    }
+
+                    .work_title {
+                        margin-bottom: 50px;
+                        text-align: center;
+                    }
+
+
+                    .personality_title,
+                    .personality_content_left,
+                    .personality_content_right {
+                        text-align: center;
+                        text-decoration: none;
+                    }
+
+                    .personality_content_left ul,
+                    .personality_content_right ul {
+                        list-style-position: inside;
+                        padding: 0px;
+                    }
+
+                    .personality_content_left li,
+                    .personality_content_right li {
+                        text-align: center;
+                    }
+
+                    .personality_logo {
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+
+                    #personality_logo {
+                        width: 250px;
+                        height: 250px;
+                        text-align: center;
+                        border: 2px;
+                        border-style: solid;
+                    }
+
+                    .skill_icon {
+                        width: 50px;
+                    }
+
+
+                    .about_content_bottom li {
+                        display: inline-block;
+                        margin-right: 50px;
+                    }
+                    /* one off stuff */
+
+                    #line_gap {
+                        margin-top: 5px;
+                        position: absolute;
+                        left: 0%;
+                        background-color: black;
+                        width: 100%;
+                        height: 2px;
+                    }
+                    /* nav */
+
+                    #dropdown_menu li {
+                        display: inline-block;
+                        float: left;
+                        padding: 0px;
+                    }
+
+                    .navbar-nav > li {
+                        text-align: right;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+
+                    .navbar-fixed-bottom {
+                        font-size: 0.7em;
+                    }
+
+                    .navbar-fixed-bottom {
+                        text-align: center;
+                    }
+                    /* footer */
+                    /* fonts */
+
+                    h1 {
+                        font-size: 1.2em;
+                    }
+                    /* media queries */
+
+                    @media (min-width:768px) {
+
+
+                        .personality_logo {
+                            margin-top: 90px;
+                        }
+
+
+                        #line_gap {
+                            position: absolute;
+                            left: 50%;
+                            background-color: black;
+                            width: 2px;
+                            height: 250px;
+                        }
+
+                        .navbar-nav.navbar {
+                            left: 50%;
+                            transform: translatex(-50%);
+                        }
+
+                        #image_col {
+                            margin-top: 250px;
+                        }
+
+                        .home_title {
+                            margin-top: 100px;
+                            font-size: 1.5em;
+                        }
+
+                        .navbar-fixed-bottom {
+                            font-size: 1em;
+                        }
+
+                        .col_work {
+                            text-align: center;
+                        }
+                    }
+
+                    @media(min-width:992px) {
+
+                        @media(min-width: 1200px) {}
