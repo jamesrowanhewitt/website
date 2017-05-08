@@ -1,0 +1,231 @@
+#line_gap,
+#logo_banner {
+    position: absolute;
+    left: 0
+}
+
+body {
+    min-width: 320px
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center
+}
+
+#logo_banner {
+    height: 50px;
+    width: 50px;
+    margin: 0
+}
+
+#logo_main,
+.work_col img {
+    width: 250px
+}
+
+#logo_main {
+    height: 250px;
+    border: 2px solid
+}
+
+.home_logo {
+    text-align: center;
+    margin-top: 75px
+}
+
+.about_title,
+.home_title {
+    margin-top: 25px;
+    text-align: center
+}
+
+.home_title {
+    font-size: 1.5em
+}
+
+.about_content_bottom,
+.about_content_middle,
+.about_content_top {
+    text-align: center;
+    margin-top: 50px
+}
+
+.about_content_bottom {
+    text-align: center
+}
+
+.about_content_middle ul,
+.about_content_top ul {
+    list-style: none;
+    padding: 0
+}
+
+.work_title {
+    text-align: center;
+    margin-top: 25px
+}
+
+.work_col img,
+.work_website img {
+    margin-top: 50px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center
+}
+
+.work_website img {
+    width: 100%;
+    height: 300px
+}
+
+.personality_content_left,
+.personality_content_right,
+.personality_title {
+    text-align: center;
+    text-decoration: none
+}
+
+.personality_content_left ul,
+.personality_content_right ul {
+    list-style-position: inside;
+    padding: 0
+}
+
+.personality_content_left li,
+.personality_content_right li {
+    text-align: center
+}
+
+.personality_logo {
+    margin-top: 20px;
+    text-align: center
+}
+
+#personality_logo {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 2px solid
+}
+
+.skill_icon {
+    width: 50px
+}
+
+.about_content_bottom li {
+    display: inline-block;
+    margin-right: 50px
+}
+
+.social_facebook,
+.social_instagram,
+.social_linkedin,
+.social_twitter {
+    display: inline-block;
+    padding: 10px
+}
+
+.social_facebook img,
+.social_instagram img,
+.social_linkedin img,
+.social_twitter img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000
+}
+
+.location_content img {
+    border-style: solid;
+    border-width: 2px
+}
+
+#line_gap {
+    margin-top: 5px;
+    background-color: #000;
+    width: 100%;
+    height: 2px
+}
+
+#dropdown_menu li {
+    display: inline-block;
+    float: left;
+    padding: 0
+}
+
+.navbar-nav > li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+}
+
+.navbar-fixed-bottom {
+    font-size: .7em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer_left,
+.footer_middle,
+.footer_right {
+    height: 50px;
+    text-align: center;
+}
+
+
+.footer_left img {
+    height: 50px;
+}
+
+
+
+h1 {
+    font-size: 1.2em
+}
+
+@media (min-width:768px) {
+    .footer_left {
+        text-align: left
+    }
+
+    .footer_middle {
+        text-align: middle
+    }
+
+    .footer_right {
+        text-align: right
+    }
+    .social_facebook,
+    .social_instagram,
+    .social_linkedin,
+    .social_twitter {
+        margin: 0
+    }
+    .personality_logo {
+        margin-top: 90px
+    }
+    #line_gap {
+        position: absolute;
+        left: 50%;
+        background-color: #000;
+        width: 2px;
+        height: 250px
+    }
+    .navbar-nav.navbar {
+        left: 50%;
+        transform: translatex(-50%)
+    }
+    #image_col {
+        margin-top: 250px
+    }
+    .home_title {
+        margin-top: 100px;
+        font-size: 1.5em
+    }
+
+    .col_work {
+        text-align: center
+    }
+}

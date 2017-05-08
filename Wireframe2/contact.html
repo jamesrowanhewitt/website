@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Achi Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown_menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <img src="/images/logo-banner.png" alt="logo-banner" id="logo_banner">
+            </div>
+            <div class="collapse navbar-collapse" id="dropdown_menu">
+                <ul class="nav navbar-nav navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="personality.html">Personality</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--/ Navigation bar-->
+
+    <!--Grid System-->
+
+    <div class="container">
+        <div class="row">
+            <div class="contact_title col-sm-12">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact_form col-sm-12">
+                <form action="/form_handling.php" method="post">
+                    <fieldset>
+                        First name:<br>
+                        <input type="text" name="firstname" placeholder="First Name"><br> Last name:<br>
+                        <input type="text" name="lastname" placeholder="Last Name"><br> Email:
+                        <br>
+                        <input type="text" name="email" placeholder="Email address"><br> Telephone:
+                        <br>
+                        <input type="text" name="telephone" placeholder="Phone Number"><br><br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="location_title col-sm-12">
+                <h2>Location</h2>
+            </div>
+            <div class="location_content col-sm-12"><img src="images/google_map.png" alt="Google Maps"></div>
+        </div>
+        <div class="row">
+            <div class="social_title col-sm-12">
+                <h2>Keep in touch!</h2>
+                <p></p>
+            </div>
+            <div class="social_facebook col-sm-3">
+                <a href="http://www.facebook.com"><img src="images/social_media.png" alt="Facebook"></a>
+            </div>
+            <div class="social_twitter col-sm-3">
+                <a href="http://www.twitter.com"><img src="images/social_media.png" alt="Twitter"></a>
+            </div>
+            <div class="social_instagram col-sm-3">
+                <a href="http://instagram.com"><img src="images/social_media.png" alt="Instagram"></a>
+            </div>
+            <div class="social_linkedin col-sm-3">
+                <a href="http://au.linkedin.com"><img src="images/social_media.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+    <!--/Grid System-->
+
+    <!--Footer-->
+    <footer class="footer_fixed navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="footer_left col-sm-4">
+                    <a href="http://www.facebook.com"><img src="images/social_media.png" alt="Facebook"></a>
+                    <a href="http://www.twitter.com"><img src="images/social_media.png" alt="Twitter"></a>
+                    <a href="http://instagram.com"><img src="images/social_media.png" alt="Instagram"></a>
+                    <a href="http://au.linkedin.com"><img src="images/social_media.png" alt="LinkedIn"></a>
+                </div>
+                <div class="footer_middle col-sm-4"><p>info@achi-design.com</p>
+                <p>+66(0)412345678</p></div>
+                <div class="footer_right col-sm-4"><p>&#169;Achi-Design powered by Group 4: Achi/James/Rob - All Rights Reserved</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <!--/Footer-->
+
+
+    <!-- jQuery (necessary for bootstrap's javaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
